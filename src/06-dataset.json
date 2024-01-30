@@ -1,0 +1,617 @@
+[
+  {
+    "title": "interact_with_ethereum",
+    "year": "2021",
+    "text": "You have probably already seen many articles and tutorials about blockchain and how it works. As engineers we know that it's hard to understand the topic deeply without getting your hands dirty so I would like to show you how to do so with blockchain based on ethereum. "
+  },
+  {
+    "title": "archunit",
+    "year": "2022",
+    "text": "ArchUnit  Software architecture is a set of design decisions that shape our system. With ArchUnit, you can import those decision into your Java codebase and discover any architectural defects during a regular build. "
+  },
+  {
+    "title": "spring_cloud_config",
+    "year": "2022",
+    "text": "Spring Cloud Config  Yet another Spring Cloud project. This time, we will see how to implement a shared, centralized configuration for Microservices. "
+  },
+  {
+    "title": "spring_cloud_contract",
+    "year": "2022",
+    "text": "Spring Cloud Contract  Let's see how to implement a consumer-driven contract testing using Spring Cloud Contract and start doing TDD at the API level."
+  },
+  {
+    "title": "spring_cloud_gateway",
+    "year": "2022",
+    "text": "Spring Cloud Gateway  Spring Cloud Gateway provides a non-blocking, reactive library for building an API Gateway on top of Spring WebFlux. As an edge service, it fully supports dynamic routing, resiliency and monitoring of your microservices. "
+  },
+  {
+    "title": "docker_networks",
+    "year": "2022",
+    "text": "Here we will take a look at one of docker's features that made it so popular - network!"
+  },
+  {
+    "title": "git_under_the_hood_pt_2",
+    "year": "2022",
+    "text": "Here is a continuation of my older article about git. This time, I will talk about branches and HEAD (my personal horror until I understood its true nature)."
+  },
+  {
+    "title": "exposed_with_spring",
+    "year": "2022",
+    "text": "Exposed with Spring  If you are a Spring developer, you probably worked with Hibernate before. In this article I will show you one of the available Kotlin alternatives - `Exposed` - and how to integrate it quickly with your Spring service. The article provides link to the ready-made starter `bookstore` project, so that you can start hacking with `Exposed` right away. "
+  },
+  {
+    "title": "aws_lambda_cloudformation",
+    "year": "2022",
+    "text": "Automating AWS Lambda functions deployment using CloudFormation  From this article you'll learn step by step how to automate Lambda function deployment using CloudFormation. The Lambda function used as an example is implemented in JavaScript, but you can modify the solution to be used with other languages. We will create a CloudFormation template and write a Bash script that does everything needed for the deployment. "
+  },
+  {
+    "title": "aws_ses_lambda",
+    "year": "2022",
+    "text": "Sending automated emails using Amazon SES and Lambda  This article describes step-by-step how to send an email message from an AWS Lambda using Amazon SES service. The solution will be enough for you if you want to send emails to your team. You will also know what are the next steps if you want to send an email to a bigger number of users. "
+  },
+  {
+    "title": "elasticsearch_aggregations",
+    "year": "2022",
+    "text": "Elasticsearch in Java projects - aggregations  This article, in contrary to previous ones, is not dedicated to search. It presents another powerful aspect of the Elasticsearch - Aggregations, that let users analyze and summarize the set of data. "
+  },
+  {
+    "title": "elasticsearch_data_enrichment",
+    "year": "2022",
+    "text": "Elasticsearch in Java projects - data enrichment  This article presents the data enrichment that can be used to add additional information from existing indices during data ingestion. "
+  },
+  {
+    "title": "elasticsearch_dockerizing_application",
+    "year": "2022",
+    "text": "Elasticsearch in Java projects - dockerizing the application  This article presents how to dockerize the spring boot application based on the demo application and build the multi-container application with Docker Compose. "
+  },
+  {
+    "title": "elasticsearch_index_and_read_documents",
+    "year": "2022",
+    "text": "Elasticsearch in Java projects - index and read documents  This article presents how to index and retrieve documents in/from Elasticsearch index base on the simple demo application. "
+  },
+  {
+    "title": "elasticsearch_query-documents",
+    "year": "2022",
+    "text": "Elasticsearch in Java projects - query documents  This article is a continuation of the trip through the Elasticsearch features. This time it presents how the stored documents can be queried, based on the applied filters. "
+  },
+  {
+    "title": "elasticsearch_restful_api",
+    "year": "2022",
+    "text": "Elasticsearch in Java projects - RESTful API over HTTP  This article presents basic communication with the Elasticsearch using RESTful API over HTTP with a web client. "
+  },
+  {
+    "title": "elasticsearch_testcontainers",
+    "year": "2022",
+    "text": "Elasticsearch in Java projects - test with Testcontainers  This article touches an aspect of the software development that was skipped in the previous articles - testing. It presents how to use Testcontainers to create simple and reliable integration tests. "
+  },
+  {
+    "title": "aws_lambda_deploy",
+    "year": "2022",
+    "text": "This article is showing how to create simple terraform to create lambda function and deploy it to AWS. Additional we will see how to configure connection bettwen AWS and local machnie using aws-vault. "
+  },
+  {
+    "title": "gitlab_pipelines",
+    "year": "2022",
+    "text": "This article will present simple examples with built-in pipelines. I will show some nice features supported by gitlab. We will deploy our simple spring-boot application (to an AWS S3 bucket) to see a simple CI/CD example.\u00c2\u00a0"
+  },
+  {
+    "title": "python_simple_application_raspberrypi",
+    "year": "2022",
+    "text": "This article shows how to remotely control Christmas lights using the Raspberry PI. You will how easy and quick it is to implement. This article should serve as a motivation for you to create your own Raspberry PI projects."
+  },
+  {
+    "title": "save_your_time_with_mapstruct_library",
+    "year": "2022",
+    "text": "This article presents how to easily map objects using MapStruct java library"
+  },
+  {
+    "title": "glowroot_so_simple_yet_so_powerful",
+    "year": "2022",
+    "text": "During my career, I had an opportunity to work with various **_APM_** tools like **New Relic**, **Splunk**, **Sumo Logic**, **Elastic**, etc. They amazed me with their functionality and became handy in my daily tasks. But when I tried to apply them to small, budget, private, local or offline projects, I encountered a lot of obstacles that stopped me from using them.  Luckily I didn't wait long to find an alternative solution. Now I would like to share my finding with readers. "
+  },
+  {
+    "title": "have_fun_with_google_apps_script",
+    "year": "2022",
+    "text": "As an experienced, respected, and serious senior developer, leave sometimes your castle built on top of the **C/C++**, **Python**, **Assembler**, and **Java** pillars, and try to enjoy playing with _**low-code**_ and _**no-code**_ blocks in a sandbox together with your peasants."
+  },
+  {
+    "title": "kotlin_dsl_for_google_sheets",
+    "year": "2022",
+    "text": "Kotlin DSL for Google Sheets  Guide through the design of a non-trivial Kotlin DSL for a real-world domain. The final result is a handy and sleek solution for the declarative creation of spreadsheets in [Google Sheets](https://www.google.com/sheets/about/). "
+  },
+  {
+    "title": "bottlenecks_identification_with_perf",
+    "year": "2022",
+    "text": "This article presents how to easily profile a Linux system application with the perf tool. Additionally, you will learn how to visualize gathered data as interactive svg graphic."
+  },
+  {
+    "title": "find_better_solution_with_boost",
+    "year": "2022",
+    "text": "This article presents some useful libraries and features available in C++ Boost  with their exemplary use."
+  },
+  {
+    "title": "change_detection_in_angular",
+    "year": "2022",
+    "text": "Change Detection Mechanism in Angular  Developing long term of Angular application may cause performance issues. Here is a brief overview of change detection mechanisms and some ways to optimize them. "
+  },
+  {
+    "title": "react_router_client_side_routing_made_easy",
+    "year": "2023",
+    "text": "React-Router: Client Side Routing Made Easy  React Router is a popular library for client side routing in React applications. Based on the current URL, it provides a simple way to declare routes and make components available to be rendered. "
+  },
+  {
+    "title": "recoil_a_comparison_with_redux",
+    "year": "2023",
+    "text": "Recoil: A Comparison With Redux  A baseline presentation on what Recoil is, and how it works in comparison with modern Redux. "
+  },
+  {
+    "title": "redux_saga_handling_asynchronous_actions_in_redux",
+    "year": "2023",
+    "text": "Redux-Saga - handling asynchronous actions in Redux  Redux-Saga is a powerful library that enables writing complex asynchronous tasks in a simple, declarative way. This article attempts to show the basic use cases of it. "
+  },
+  {
+    "title": "trpc_end_to_end_typesafe_apis",
+    "year": "2023",
+    "text": "tRPC: End to end typesafe APIs  tRPC is a TypeScript alternative to typical REST-based and GraphQL based APIs. It is designed for monorepos, and a tool a full stack typescripter might appreciate. "
+  },
+  {
+    "title": "junit_parametrized_tests",
+    "year": "2023",
+    "text": " JUnit 5 provides an extensive toolkit of methods and annotations designed for convenient test parameterization with various types of sources. In this article, we take a closer look at test parameterization with JUnit, exploring practical examples.  "
+  },
+  {
+    "title": "postgresql_json_functions_and_operators",
+    "year": "2023",
+    "text": "Many modern data architecture designs require combining the structured relational model with semi-structured or unstructured data. PostgreSQL supports the extension of the relational model by providing a set of functions and operators specifically designed for handling data in the JSON format. This article delves into some of these JSON functions with accompanying examples."
+  },
+  {
+    "title": "reactor_core_for_non_blocking_applications",
+    "year": "2023",
+    "text": "The Reactor project is a Java implementation of Reactive streams specification that enables designing non-blocking asynchronous applications resilient to a high load of processed data.   In this article some basic concepts of the Reactive streams are illustrated with examples of how to use Reactor Core to create non-blocking asynchronous code."
+  },
+  {
+    "title": "selenium_article",
+    "year": "2023",
+    "text": "Selenium 4  Selenium is a free open source automated testing framework which helps testers validate web applications in different environments and browsers. In this artice I will explain some of the new features of the Selenium 4 and compare them to the previous version. "
+  },
+  {
+    "title": "contract_testing",
+    "year": "2023",
+    "text": "Contract testing as a way to help maintain system stability \u00e2\u20ac\u201c Spring Cloud Contract  Currently microservices architecture is the most common way of creating systems.  Because of that every developer in his everyday job encounters more than ever before one of the simplest scenario in the IT world \u00e2\u20ac\u201c producer and consumer relation. Contract testing is a good tool to maintain compatibility between these two. "
+  },
+  {
+    "title": "hexagonal architecture",
+    "year": "2023",
+    "text": "Hexagonal architecture as an answer to flexibility and efficient testing  During the process of creating IT systems there is always the question of how to choose the right architecture that suits our needs. In this article I will try to show how hexagonal architecture can help build applications that are resistant to dynamically changing requirements or migrations from one technology to another. "
+  },
+  {
+    "title": "automate_tedious_refactoring_with_openrewrite",
+    "year": "2023",
+    "text": "Automate tedious refactoring with OpenRewrite  Have you ever hit a project where you encountered an outdated version of java and spring boot? Of course, you have, you probably also wanted to change that and bump up the versions of the libraries. So, you know very well that it is not a simple version change, but also code changes, often tedious ones. The OpenRewrite library can automate all these tedious tasks for you. "
+  },
+  {
+    "title": "api_first_with_open_api_generator",
+    "year": "2023",
+    "text": "API-first with Open API Generator  The API-first approach facilitates effective cooperation in server-client projects, while having API-related models and services separate and configured in simple YAML files helps keeping a neat project structure. With the powerful Open API generator tool, such configurations can be later transformed into production-ready code. "
+  },
+  {
+    "title": "fault_tolerance_with_resilience4j_and_spring",
+    "year": "2023",
+    "text": "Fault Tolerance with Resilience4j and Spring Boot  Microservice architecture by design needs and works well with Fault Tolerance mechanisms. It's necessary to avoid single points of failure, as well as ensure high availability and business continuity for critical parts of our system. Thankfully there are tools to achieve that in Spring Boot, of which very prominent is the Resilience4j library. In this article we will dive into this powerful yet intuitive tool. "
+  },
+  {
+    "title": "flyway_migrations_with_spring",
+    "year": "2023",
+    "text": "Flyway migrations with Spring  Flyway is a simple, yet powerful database migrations tool that allows you to easily manage and develop your database. With great support for many frameworks, including Spring, and vast adaptability, it's definitely worth checking out.  "
+  },
+  {
+    "title": "jwt_with_spring",
+    "year": "2023",
+    "text": "JSON Web Token Authentication with Spring  Learn about the vastly used authentication approach of using JSON Web Tokens. Achieve stateless and secure token-based authentication in Spring, while understanding its pros and cons. "
+  },
+  {
+    "title": "deploying_cloud_native_quarkus_application_on_aws",
+    "year": "2023",
+    "text": "Deploying the cloud native Quarkus application on AWS  Quarkus is still considered a new player in town and not everyone is familiar with the possibilities it gives. The last article of the Quarkus trilogy will guide you through the process of building and deploying the native image of your Quarkus app into AWS. "
+  },
+  {
+    "title": "quarkus_in_comparison_with_spring_boot",
+    "year": "2023",
+    "text": "Why Quarkus should not be considered as another Spring clone  Quarkus is still considered a new player in town and not everyone is familiar with the possibilities it gives. In this article we will try to show the developers how Quarkus differs from Spring Boot and how they can benefit from the usage of this framework for their upcoming projects. "
+  },
+  {
+    "title": "your_first_quarkus_application",
+    "year": "2023",
+    "text": "Quarkus is still considered a new player in town and not everyone is familiar with the possibilities it gives. In this article we will see an example app written with this framework in order to get a better understanding of what working with Quarkus looks like. "
+  },
+  {
+    "title": "new_java_feature_after_version_8",
+    "year": "2023",
+    "text": "In this article you could find new, the most useful features in Java, added from 8 version.  Features will be structured in chapters by Java version which they are added to,  so you could easily find what features you could use in specific Java version.   "
+  },
+  {
+    "title": "distributed_lock",
+    "year": "2023",
+    "text": "The synchronization of the access to shared data is a key task in multithreaded applications. The situation gets even more complicated if we need to add multiple nodes to improve performance. Can this be achieved without too much complication? In this article I would like to present a distributed lock implementation that I was a part of."
+  },
+  {
+    "title": "intro_to_hazelcast",
+    "year": "2023",
+    "text": "In this article I will show how to use Hazelcast, where can it be used in modern applications and I will try to prove that nowadays it is not only a distributed cache."
+  },
+  {
+    "title": "using_apache_ignite_as_distributed_in-memory_cache_in_java_projects",
+    "year": "2023",
+    "text": "Using Apache Ignite as distributed In-Memory Cache in Java projects  This article presents how to configure and launch basic Ignite cluster and also present demo application which will make use of the cluster. "
+  },
+  {
+    "title": "cypress",
+    "year": "2023",
+    "text": "Abstract  In this article we will look at the advantages of using Cypress, a modern end-to-end testing framework, for automated GUI testing in web applications in this article. We will compare Cypress to its competitor, Selenium, emphasizing the benefits of Cypress's architecture, language support, real-time reloading, debugging capabilities, and reduced test flakiness. We will also provide a step-by-step guide for creating and running a simple Cypress test, demonstrating how simple it is to get started with this powerful tool. Developers can create robust and reliable tests while ensuring a seamless user experience in their web applications by utilizing Cypress's features and user-friendly interface. "
+  },
+  {
+    "title": "cypress_api_tests",
+    "year": "2023",
+    "text": "Abstract  This article is a guide on using Cypress, a popular end-to-end testing framework, for automating REST API testing. We will discuss the advantages of using Cypress for REST API testing, including comprehensive testing, speed, easy debugging, and developer-friendliness. A step-by-step sample implementation is provided, showcasing how to create and run tests for basic CRUD operations on a tasks API. By leveraging Cypress for REST API testing, developers can ensure the reliability, maintainability, and efficiency of their APIs, ultimately improving overall software quality. "
+  },
+  {
+    "title": "factory_selenium_java",
+    "year": "2023",
+    "text": "Abstract  The Factory design pattern is a powerful object-oriented programming concept that makes flexible and extensible creation of objects possible. The benefits and applications of the Factory pattern in automated testing using Selenium and Java are discussed in this article. We are going to show how to use the Factory pattern to manage browser instances, initialize page objects, and generate test data using three practical examples. You can improve the maintainability, flexibility, and scalability of your test suites by incorporating the Factory pattern into your automated testing approach, ensuring robust and effective testing of your web applications. "
+  },
+  {
+    "title": "gatling",
+    "year": "2023",
+    "text": "Abstract  This article provides a comprehensive tutorial on how to use Gatling, a high-speed load and performance testing tool, when performing automated Java testing. Gatling, its setup procedure, and the creation of a straightforward Gatling test are all introduced to the reader. The paper also explores Gatling's sophisticated capabilities for replicating real-world user scenarios and how they may be integrated with Java projects, especially using Maven. Gatling is a useful tool for Java developers undertaking performance testing since it emphasizes its robust features, scalability, and considerable advantages despite a Scala-based learning curve. "
+  },
+  {
+    "title": "locust",
+    "year": "2023",
+    "text": "Abstract  This article provides a comprehensive overview of using Locust, a powerful open-source load testing tool. The article covers the basics of setting up Locust, creating and running a load test, and analyzing the results. It also includes a real-world example of testing an e-commerce website. The guide is designed for technical audiences, with Python-based scripting examples provided for each step. By the end of the article, readers will have a solid understanding of how to leverage Locust for their performance testing needs, ensuring their applications can handle real-world loads. "
+  },
+  {
+    "title": "playwright",
+    "year": "2023",
+    "text": "Abstract  This article provides a description of Microsoft's Playwright, a modern testing framework, as well as its advantages over popular competitors such as Cypress and Selenium. It emphasizes Playwright's primary advantages, such as broad browser compatibility, API consistency, speed and reliability, network interception, and auto-wait features. The article also includes a step-by-step instruction of installing and using Playwright, making it simple for developers to get started with this powerful testing tool. Developers can rapidly build and maintain comprehensive tests by leveraging Playwright's rich features and ease of use, ensuring the delivery of high-quality online applications. "
+  },
+  {
+    "title": "playwright_visual_testing",
+    "year": "2023",
+    "text": "Abstract  This article offers a detailed exploration of visual testing using the Playwright automation framework. Visual testing, a method focused on verifying the graphical user interface (GUI) of an application, is a crucial aspect of modern software development. The article discusses the advantages of using Playwright for visual testing, including its multiple browser support, interactivity, reliability, flexibility, and performance. It provides a step-by-step guide on how to install Playwright and write visual tests using snapshot testing and AI-powered tools like Applitools. The piece underlines the importance of visual testing in delivering a visually perfect application and enhancing user satisfaction. It concludes by emphasizing the importance of a balanced testing strategy that includes visual testing along with other types of testing. "
+  },
+  {
+    "title": "selenide",
+    "year": "2023",
+    "text": "Abstract  This article discusses the advantages of using Selenide and Java for automated testing, with a focus on the improved wait handling provided by Selenide. Wait handling is a crucial aspect of automated testing, and Selenide's wait handling system is more efficient, reliable, and concise than Selenium's. The article also provides an example implementation demonstrating the speed and ease with which Selenide can be used to solve common testing problems in comparison with Selenium. Ultimately, using Selenide and Java for automated testing can lead to faster test execution times and more reliable tests. "
+  },
+  {
+    "title": "selenium_allure_gitlab_ci_integration",
+    "year": "2023",
+    "text": "Abstract  In this article, we are going to demonstrate how to project setup a GitLab CI pipeline for running automated tests with Selenium and Java, followed by generating Allure reports. By incorporating continuous integration and automated testing into the software development process, teams can maintain high code quality, streamline development, and quickly identify issues during testing. The article covers project setup, GitLab CI configuration, creating sample Selenium tests, and analyzing Allure reports. Adopting these practices can significantly enhance your software development workflow. "
+  },
+  {
+    "title": "selenium_docker",
+    "year": "2023",
+    "text": "Abstract  Efficient test automation and execution are critical for modern software development processes. In this article we will explore the integration of Selenium, a popular open-source framework for automating browser actions, with Docker, a leading platform for containerization. It covers the basics of Selenium and Docker, their benefits, and how to utilize Docker for consistent Selenium test execution. The article also delves into setting up a Selenium Grid with Docker for parallel test execution and scaling, along with monitoring and logging. Finally, it presents best practices for Selenium and Docker integration to ensure an optimized, efficient testing process. The goal is to equip readers with the knowledge to create a reliable, scalable, and manageable testing environment that ultimately drives higher software quality. "
+  },
+  {
+    "title": "selenium_grid",
+    "year": "2023",
+    "text": "Abstract  In this article, we are going to demonstrate how to project setup a GitLab CI pipeline for running automated tests with Selenium and Java, followed by generating Allure reports. By incorporating continuous integration and automated testing into the software development process, teams can maintain high code quality, streamline development, and quickly identify issues during testing. The article covers the project setup, GitLab CI configuration, creating sample Selenium tests, and analyzing Allure reports. Adopting these practices can significantly enhance your software development workflow. "
+  },
+  {
+    "title": "singleton_selenium_java",
+    "year": "2023",
+    "text": "Abstract  In this blog post, we are going to explore three practical use cases of the Singleton design pattern in automated testing with Java and Selenium. These use cases include managing WebDriver instances, handling test configurations, and organizing test data for data-driven testing. By implementing the Singleton pattern in these scenarios, testers can simplify their test suite structure, streamline test execution, and improve maintainability. The article provides step-by-step implementation examples and demonstrates how to incorporate these Singleton implementations in test cases. "
+  },
+  {
+    "title": "xray_reporting",
+    "year": "2023",
+    "text": "Abstract  Automated testing is critical to ensuring quality and efficiency in the fast-paced world of software development. This article delves into the process of reporting test results with Xray, a robust test management solution that interacts smoothly with popular frameworks such as Selenium and Jenkins. The post explains how teams can streamline their test reporting workflow by using Selenium and Java test automation examples, as well as a simplified Jenkins file. Teams may follow test execution, import findings, and obtain important insights for enhanced software quality by employing Xray's complete reporting tools. The combination of Selenium, Java, Jenkins, and Xray enables teams to effectively manage and report test results, resulting in increased productivity and decreased time-to-market. "
+  },
+  {
+    "title": "transactional_outbox_with_dynamodb",
+    "year": "2023",
+    "text": "The Transactional Outbox pattern with DynamoDB Streams  Implementing a Transactional Outbox Pattern with DynamoDB Streams "
+  },
+  {
+    "title": "AI_coding_assistants",
+    "year": "2023",
+    "text": "As artificial intelligence rapidly evolves and permeates various aspects of our  lives, its influence on the software development process becomes inevitable. Currently,  several tools significantly easing this process are available on the market, and I would like to briefly introduce some of them in this article. It seems that, in the near future, a crucial matter  for many programmers will be the proficient use of such solutions to maintain competitiveness in the job market."
+  },
+  {
+    "title": "assertJ_assertions",
+    "year": "2023",
+    "text": "AssertJ - fluent assertion  When we write code, we aim to make it as good as possible. Good code should also be covered by good and well-written tests. To achieve that, we can use the AssertJ library, which helps us write simple tests with assertions that are close to natural language."
+  },
+  {
+    "title": "graph_databases_introduction",
+    "year": "2023",
+    "text": "Graph databases - Introduction with a simple Neo4j example  The growth of social networks is driving the demand for graph databases. As social networks continue to grow  in size and complexity, graph databases are becoming increasingly necessary to support the demands of these applications. That's why I would like to provide an article that offers an overview of graph databases, presents some of their advantages over relational databases, and discusses their most common use cases. I have also included a brief introduction to the Neo4j database with configuration in a simple Spring Boot application. "
+  },
+  {
+    "title": "SpringBoot-AI",
+    "year": "2023",
+    "text": "One of the upcoming innovations from the world of Spring is the official Spring-AI library. Although it is still in the early stages of development, given the current dynamic progress in the field of AI and the growing market demand for such solutions, I believe it has the potential to become widely used, especially considering how prevalent the use of the Spring framework is in creating various applications. In this article, I will demonstrate how, by using Spring-AI, one can add an AI-based functionality to our application."
+  },
+  {
+    "title": "enhancing_request_handling_in_aspnet_core",
+    "year": "2023",
+    "text": "Enhancing Request Handling in ASP.NET Core  In modern web applications, performance and responsiveness are crucial factors for a great user experience. One way to improve performance in ASP.NET Core applications is by using the CancellationToken mechanism. "
+  },
+  {
+    "title": "entityframework_on_steroids",
+    "year": "2023",
+    "text": "EntityFramework on Steroids: Combining EntityFramework and Linq2Db.EntityFrameworkCore   While EF is powerful and convenient, it sometimes falls short in terms of performance, especially when dealing with complex queries or bulk operations. In this blog post, I will show you how to combine Entity Framework with another powerful ORM library, Linq2Db.EntityFrameworkCore, to supercharge your applications and make them run faster and more efficiently. We'll cover the advantages of using Linq2Db, how to set it up in an existing EF project, and how to leverage it for better performance. "
+  },
+  {
+    "title": "entityframework_resilience",
+    "year": "2023",
+    "text": "EntityFramework Resilience: Retrying Database Queries with EntityFrameworkCore  As a .NET developer, you may have come across situations where your application's database connections face transient faults, such as temporary network issues, timeouts or deadlocks. In such scenarios, it is essential to build resilience into your application to recover from these transient faults without affecting its performance. One way to achieve this is by using EntityFrameworkCore to implement retry policies for database queries. In this article, we'll explore how to build a resilient application using EntityFrameworkCore by implementing retry policies for database queries. "
+  },
+  {
+    "title": "is_your_service_healthy",
+    "year": "2023",
+    "text": "Is your service healthy? Healthchecks in ASP.NET Core  In the world of microservices and distributed systems, it's crucial to monitor the health of each service to maintain the system's overall stability and performance. ASP.NET Core 6.0 has built-in support for health checks, allowing developers to easily implement health checks in their applications. In this article, we will explore how to implement health checks in ASP.NET Core 6.0 using both built-in features and third-party libraries like AspNetCore.Diagnostics.HealthChecks. "
+  },
+  {
+    "title": "make_your_first_chrome_extension",
+    "year": "2023",
+    "text": "Make Your First Chrome Extension   Chrome extensions are a powerful way to enhance the user experience by extending the browser's capabilities. In this tutorial, we will walk you through the process of creating a simple Chrome extension, including the manifest file, background scripts, and content scripts. We will also provide an example source code to help you get started. "
+  },
+  {
+    "title": "who_modified_it_and_when",
+    "year": "2023",
+    "text": "Who modified it and when? A clean way to update audit columns in a SQL database  In the world of software development, it's crucial to maintain an audit trail of changes made to the data stored in our databases. These audit trails can help us identify potential security issues, track performance, and maintain a history of changes for debugging purposes. One clean approach to implementing this functionality is adding audit columns like CreatedBy, UpdatedBy, CreatedDate, and UpdatedDate in database tables and updating their values automatically. "
+  },
+  {
+    "title": "art",
+    "year": "2023",
+    "text": "How to use the useEffect hook with the AbortController  The AbortController interface provides a way to cancel ongoing asynchronous operations. When combined with React's useEffect hook, AbortController allows us to effectively manage asynchronous requests and prevent memory leaks. "
+  },
+  {
+    "title": "debugging-in-javascript",
+    "year": "2023",
+    "text": "How to debug Javascript code in a browser?  Debugging is an essential skill for every JavaScript developer. It involves the process of identifying and fixing errors, bugs, and unexpected behavior in your code. Effective debugging techniques not only save time but also improve code quality and enhance overall development productivity. "
+  },
+  {
+    "title": "how_to_lock_objects_in_javascript",
+    "year": "2023",
+    "text": "How to lock objects in JavaScript  In JavaScript, the concept of locking objects refers to controlling their mutability and ensuring data integrity. By utilizing methods such as `Object.preventExtensions`, `Object.seal`, and `Object.freeze`, developers can set different levels of immutability and restrict property additions or deletions. "
+  },
+  {
+    "title": "angular_-_how_to_share_components_data",
+    "year": "2023",
+    "text": "Angular : How to share Components data  This article provides concise methods for sharing component data in Angular. It covers input-output communication, sharing data through services, utilizing the NgRx store, and mentions other options like route parameters, local storage, session storage, and cookies. These techniques empower developers to create efficient and interactive Angular applications. "
+  },
+  {
+    "title": "angular_-_router_and_gurads_how_to_properly_implement_and_test_it",
+    "year": "2023",
+    "text": "Angular - Router and guards, how to properly implement and test them This article explores Angular's router and guards, guiding developers on their proper implementation and testing. The router module facilitates route definition, component association, and navigation event handling. Guards enable access control to routes, including authentication and authorization. The article provides practical examples and explanations for router and guard configuration and also how to test them."
+  },
+  {
+    "title": "angular_components_directives_and_pipes_-_how_to_properly_create_and_test_them",
+    "year": "2023",
+    "text": "Angular : Components, Directives and Pipes - How to properly create and test them  This article offers a practical guide to creating and testing components, directives, and pipes in Angular. It covers their definitions, code examples, and testing techniques using Angular's testing framework. By following this guide, developers can effectively utilize these Angular features for building robust and reliable applications. "
+  },
+  {
+    "title": "hot_and_cold_observables_-_what_is_it",
+    "year": "2023",
+    "text": "Hot and Cold Observables - What is it?  This article introduces hot and cold observables, key concepts in reactive programming. We will explore multicasting and unicasting observables and their effects on data distribution. Additionally, we will discuss hot observables that emit data continuously and cold observables that start emitting upon subscription. The article demonstrates converting cold observables to hot ones using Angular's shareReplay operator. Understanding these concepts helps optimize data stream management and application performance. "
+  },
+  {
+    "title": "observables_-_what_is_it_and_how_to_use_it_in_your_code",
+    "year": "2023",
+    "text": "Observables - What is it? And how to use it in your code  This article introduces observables in Angular, explaining their role in handling asynchronous data streams. It covers the creation of observables, subscribing to them, applying operators for transformation and filtering, error handling, and unsubscription. Additionally, it includes a section on testing observables using fakeAsync for writing synchronous-looking tests for asynchronous code. By leveraging observables and RxJS, developers can enhance the responsiveness and efficiency of their Angular applications. "
+  },
+  {
+    "title": "promises_-_what_is_it_and_how_to_use_it_in_your_code",
+    "year": "2023",
+    "text": "Promises - What is it? And how to use it in your code  This article introduces promises as a solution for handling asynchronous tasks in JavaScript. It covers the concept of promises, their lifecycle, and how to create and handle them effectively. The article also demonstrates how promises can be chained for sequential asynchronous operations, resulting in a cleaner and more maintainable code. Additionally, it provides insights on how to test promises in Angular using the Jasmine testing framework and the fakeAsync function. "
+  },
+  {
+    "title": "subjects_-_what_is_it_and_how_to_use_it_in_your_code",
+    "year": "2023",
+    "text": "Subject - What is it? And how to use it in your code  This article explores the concept of Subjects in Angular development and their usage in code. Subjects, acting as both Observables and Observers, facilitate communication between different parts of an application. The article covers the basics of Subjects, including their creation, subscription, and emission of values. It also introduces two variants of Subjects: BehaviorSubject and ReplaySubject. This article also demonstrates how to properly test Subject. "
+  },
+  {
+    "title": "api_documentation_with_postman",
+    "year": "2023",
+    "text": "API Documentation with Postman  Postman is a very useful tool for performing HTTP requests during development and can also be used for API documentation. In this article, we'll take a quick look at the features which are most important for this use case. Additionally, we'll implement a workaround for a very common problem encountered when using Postman. "
+  },
+  {
+    "title": "manipulate_http_requests_with_cypress_intercept",
+    "year": "2023",
+    "text": "Manipulate http requests with Cypress intercept  Sometimes there are test cases that require changes to user attributes in the system. For example, we can block certain events for the user, or quite the opposite, i.e. trigger certain events, such as pop-ups or access to content only for premium users. In such cases, we can use the cy.intercept() function in Cypress to pretend that we have such permissions. "
+  },
+  {
+    "title": "sending_messages_to_rabbit_mq_with_use_of_cypress",
+    "year": "2023",
+    "text": "Sending messages to Rabbit MQ with the use of Cypress  There are situations when automatic verification of a test case becomes very difficult.  But what makes it difficult? Such a situation appears when the test case is complicated both on the front-end and the back-end side.  I can give you an example. Let's imagine that you have to make a deposit. To be more precise I mean a situation when our user has an account with the possibility of top-up. When money-transfer is made he can make some transactions in our system. "
+  },
+  {
+    "title": "langchain_chat",
+    "year": "2023",
+    "text": "Talking with OpenAI GPT about J-labs with the help of LangChain This article presents a guide to building a chat-bot based on OpenAI's GPT model with real-time access to a customizable knowledge base, using the LangChain library. By addressing the limitations of the current GPT model's access to real-time information, the author demonstrates how to use LangChain to connect the language model to an external knowledge source, and effectively retrieve relevant data based on user input. The tutorial includes a step-by-step walkthrough on setting up the working environment, preparing the knowledge base, and scripting a simple chat-bot. The end result is a chat-bot capable of maintaining a dynamic dialogue, aptly demonstrating the potential applications of LangChain in enhancing the capabilities of AI language models."
+  },
+  {
+    "title": "color_detection_using_OpenCV_and_Python",
+    "year": "2023",
+    "text": "OpenCV's abbreviation belongs to word's Open Source Computer Vision Library. This library contains functions allow us to work with images, videos and live images from cameras. Nowadays, Computer Vision is used in self-driving cars, robotics or photo/video correction. In this article, I will show you how you  can begin work with your laptop camera, detect colors, and marking contours of detected objects, which can be a good basis for more advanced projects."
+  },
+  {
+    "title": "robotframework_introduction",
+    "year": "2023",
+    "text": "Robotframework is an open source, generic test automation framework written in Python. It is used for test automation and robotic process automation. Robot was developed at Nokia Networks company in 2005 and released as open source software in 2008. It is used by big companies, like ABB, Cisco, etc."
+  },
+  {
+    "title": "virtual_machines_first_steps",
+    "year": "2023",
+    "text": "All you need to know about virtual machines (VM's)  A virtual machine (VM) is a software that runs programs or applications without being tied to a physical machine. One or more guest machines can run in a virtual machine on a host computer. Each VM has its own operating system and runs independently of other VMs, even if they are on the same physical host. Virtual machines are typically run on servers, but can also be run on desktop systems and even embedded platforms. Multiple VMs can share resources from a physical host, including CPU cycles, network bandwidth, and memory. "
+  },
+  {
+    "title": "web_scrapping",
+    "year": "2023",
+    "text": "In simple terms, web scrapping can be defined as extraction of data from a website. It's collecting and exporting data from the web to store them in a format which is more useful for the user. Although it can be done manually, in most cases automated tools are preferred as they can be less expensive and the work is done more quickly than manually."
+  },
+  {
+    "title": "spock_framework",
+    "year": "2023",
+    "text": "Software testing is the cornerstone of software development, and unit testing is its backbone. For years, Java developers relied on traditional testing frameworks like JUnit. However, a newcomer, the Spock framework, has taken the testing world by storm, challenging the status quo. In this article, we'll explore why, once you experience the power of Spock, going back to traditional frameworks may seem unappealing."
+  },
+  {
+    "title": "thoughts_on_java_virtual_threads",
+    "year": "2023",
+    "text": "Virtual threads in Java have recently been finally implemented as a part of Java 21 release. In this article I would like to share some thougths about this feature.  "
+  },
+  {
+    "title": "declarative_http_clients_on_example_of_feign",
+    "year": "2023",
+    "text": "Feign - a declarative HTTP client  The declarative way of dealing with resources has become very popular especially in case of database data - with Spring Data JPA as a good example. But what about web resources i.e. RESTful services? Shouldn't operating on web data be as clean and easy as creating JpaRepository? Netflix's Feign is a good response for this question. "
+  },
+  {
+    "title": "introduction_to_rsql_parser",
+    "year": "2023",
+    "text": "Introduction to RSQL Parser  An easy way to filter data by one implementation and any query you want.  Allows end-users to filter data by any query with little effort from the developers."
+  },
+  {
+    "title": "accessibility testing",
+    "year": "2023",
+    "text": "Accessibility Testing  We will dive into the world of accessibility testing with this article. We will break down why it is so important for making tech user-friendly for everyone. Furthermore, we will learn some testing tricks and tips to create digital spaces that are inclusive and welcoming for all. "
+  },
+  {
+    "title": "introduction_to_svelte",
+    "year": "2023",
+    "text": "In the world of frontend frameworks, there is a constant race for the best performance. Developers try various tricks to make their products the best. Yet there is one approach that hasn't been tried until 2016, when the Svelte was born. The front-end compiler. "
+  },
+  {
+    "title": "immutable_objects_in_practical_use",
+    "year": "2023",
+    "text": "Immutable objects in practical use  The immutable object is a powerful approach in application programming due to the ease of data monitoring and for safety reasons while working in concurrent environments. "
+  },
+  {
+    "title": "bdd_with_spring_boot_and_cucumber",
+    "year": "2023",
+    "text": "Abstract  Behavior-Driven Development (BDD) continues to gain traction as a strategy that bridges the communication gap between tech and non-tech stakeholders, and with the integration of Cucumber and JUnit5, it's never been more seamless. Explore how to harness the collaborative power of BDD using Cucumber, enhanced with the testing capabilities of JUnit5, all within the context of Spring Boot 3.1 applications."
+  },
+  {
+    "title": "atlas_search",
+    "year": "2023",
+    "text": "Atlas Search  Atlas Search, a powerful feature of MongoDB's Atlas database service, revolutionizes the way organizations handle full-text search within their applications. This article provides an in-depth exploration of Atlas Search, highlighting its capabilities, features, and a step-by-step tutorial how to create a first index and how to run Atlas Search Queries. "
+  },
+  {
+    "title": "blockchain_introduction",
+    "year": "2023",
+    "text": "The blockchain technology, initially introduced as the underlying technology for cryptocurrencies like Bitcoin, has emerged as a revolutionary innovation with far-reaching applications beyond digital currencies. This article provides a comprehensive overview of thre blockchain technology, delving into its key features and exploring its potential applications beyond cryptocurrencies."
+  },
+  {
+    "title": "devops_introduction",
+    "year": "2023",
+    "text": "Introduction to DevOps: How to join Development and Operations  DevOps has emerged as a transformative approach to software development, revolutionizing how organizations deliver applications with speed, quality, and efficiency. This article provides a comprehensive introduction to DevOps, exploring its fundamental principles, the impact of DevOps on software development, and the benefits it brings to organizations. "
+  },
+  {
+    "title": "dynamic_programming",
+    "year": "2023",
+    "text": "Unraveling Dynamic Programming: A Powerful Technique for Optimizing Recursion in Java  Dynamic Programming (DP) is a powerful algorithmic technique that revolutionizes the way complex problems are solved. This article delves into the world of Dynamic Programming, providing an in-depth understanding of its principles and commonly known algoritmic problems solutions using Java optimizing time and space complexity. "
+  },
+  {
+    "title": "graph_algorithms",
+    "year": "2023",
+    "text": "Exploring Graph Algorithms in Java: Understanding Graph Traversals and Shortest Paths  Graph algorithms are fundamental tools in computer science, enabling efficient analysis and processing of complex relationships within data. The article explores the essential graph algorithms, including graph traversals (DFS and BFS) and shortest path algorithms (Dijkstra's and Bellman-Ford), with practical examples in Java. "
+  },
+  {
+    "title": "intro_to_containerization",
+    "year": "2023",
+    "text": "Introduction to Containerization: Unlocking the Power of Docker and Kubernetes  Containerization has emerged as a game-changing technology in the world of software development and deployment. This article provides a comprehensive introduction to containerization, its principles, and the transformative impact it has on modern application architectures. The article introduces Docker, the leading containerization platform, and explains its architecture and fundamental components, and it also explores Kubernetes - the prominent container orchestration platform. "
+  },
+  {
+    "title": "java_concurrency",
+    "year": "2023",
+    "text": "The article delves into the realm of multi-threaded programming in Java, offering a comprehensive understanding of basics of multithreading, basic synchronization techniques and the intricacies of managing concurrent execution."
+  },
+  {
+    "title": "java_concurrency_advanced",
+    "year": "2023",
+    "text": "In the dynamic landscape of modern software development, creating robust and responsive applications demands effective management of concurrency. Java's java.util.concurrent package emerges as a cornerstone, offering a rich toolkit for handling complex multi-threading scenarios. This article delves into the advanced concurrency features within this package, unlocking the potential to craft highly performant and thread-safe applications."
+  },
+  {
+    "title": "java_exception_handling",
+    "year": "2023",
+    "text": "The article delves into the art of effectively managing exceptions in Java applications. Exception handling is a critical aspect of writing robust and maintainable code, and this article offers a comprehensive exploration of strategies and practices that lead to cleaner, more resilient programs."
+  },
+  {
+    "title": "java_performance_optimization",
+    "year": "2023",
+    "text": "In today's competitive software landscape, performance isn't just a bonus\u00e2\u20ac\u201dit's a necessity. The article takes us on a comprehensive exploration of strategies, techniques, and best practices that empower Java developers to transform their code into high-speed, efficient, and responsive applications."
+  },
+  {
+    "title": "jwt_auth_test",
+    "year": "2023",
+    "text": "JSON Web Token is a very popular way of securing web applications and APIs. This article is a basic guide of how to handle JWT and create simple test cases with the Rest Assured library."
+  },
+  {
+    "title": "machine_learning",
+    "year": "2023",
+    "text": "Machine learning has revolutionized the field of artificial intelligence, enabling computers to learn and make intelligent decisions without explicit programming. In this article about machine learning, we explore the fundamental concepts, algorithms, and applications that form the backbone of this rapidly evolving discipline."
+  },
+  {
+    "title": "mock_stub_spy",
+    "year": "2023",
+    "text": "Have you ever heard about mocks, stubs or spies? In this article I will present all of these test doubles and discuss the differences between them."
+  },
+  {
+    "title": "numerical_algorithms",
+    "year": "2023",
+    "text": "Navigating Numerical Algorithms with Java: A Journey into Mathematical Problems Solving  This article delves deep into the realm of numerical algorithms, providing a comprehensive guide to their significance, principles, and practical implementations using the Java programming language. "
+  },
+  {
+    "title": "parametrizing_unit_tests",
+    "year": "2023",
+    "text": "Unit testing is a critical aspect of software development, enabling developers to validate the functionality of individual components. However, writing separate test cases for each scenario can be time-consuming and repetitive. In the article there are presented few approaches how to deal with parametrizing unit tests in java using JUnit framework."
+  },
+  {
+    "title": "searching_algorithms",
+    "year": "2023",
+    "text": "Exploring Searching Algorithms in Java: A Comprehensive Overview  The article delves into various searching algorithms used to find specific elements in arrays and lists. It provides a detailed overview of fundamental searching techniques such as Linear Search, Binary Search, Interpolation Search and Jump Search, along with their principles, time complexities, and practical applications. "
+  },
+  {
+    "title": "secure_web_app_development",
+    "year": "2023",
+    "text": "Best Practices for Secure Web Application Development: Exploring essential security measures and practices protecting web applications from common vulnerabilities  In today's interconnected world, web applications play a key role in various aspects of business and personal life. However, with the increasing frequency and sophistication of cyber threats, it is imperative to prioritize security during the development process. This article explores the best practices and essential security measures that organizations must adapt to protect web applications from common vulnerabilities. "
+  },
+  {
+    "title": "sorting_algorithms",
+    "year": "2023",
+    "text": "A Comprehensive Guide to Sorting Algorithms in Java  Sorting algorithms are fundamental tools in computer science, enabling programmers to arrange data in a specific order for efficient retrieval and analysis. This article presents a comprehensive guide to various sorting algorithms implemented in Java, and explains their principles and exemplary implementations in Java. "
+  },
+  {
+    "title": "springboot_rest_api",
+    "year": "2023",
+    "text": "In today's interconnected world, building robust and scalable RESTful APIs is essential for modern web and mobile applications. Spring Boot, a powerful framework built on top of the popular Spring framework, provides a streamlined and efficient way to develop REST API applications. In this article, we delve into the process of building a REST API application using Spring Boot, covering the key concepts, essential components, and best practices."
+  },
+  {
+    "title": "website_performance_optimization",
+    "year": "2023",
+    "text": "In today's fast-paced digital landscape, website performance optimization has become paramount for businesses and organizations aiming to deliver exceptional user experiences and achieve their goals online. This article explores the art of optimizing website performance, providing valuable insights, techniques, and best practices for maximizing speed, efficiency, and user satisfaction."
+  },
+  {
+    "title": "weka",
+    "year": "2023",
+    "text": "Machine learning, a cornerstone of modern technology, has paved the way for computers to learn from data and make informed decisions. In this article, we embark on a journey into the realm of machine learning using the Weka framework within the Java programming language."
+  },
+  {
+    "title": "angular_signals_-_the_new_way_of_change_detection",
+    "year": "2023",
+    "text": "Angular Signals - A new way of change detection  This article is the first look into the concept of Signals in Angular. It explores Signals API followed by some simple examples to understand why and how we should use Signals in our daily developer's work."
+  },
+  {
+    "title": "jasypt_in_spring_boot",
+    "year": "2023",
+    "text": "Passwords and the data we want to keep protected are commonely used by us on a daily basis. We log in to a bank account or our favourite social media platform. We know them by heart or store in password managers. The article will guide you through how to secure such data in IT systems with the use of Jasypt library in Spring Boot Java applications."
+  },
+  {
+    "title": "introduction_to_delegates_in_dotnet",
+    "year": "2024",
+    "text": "Introduction to delegates in C#/.NET  This article is about delegates in C.NET. It Describes the definition, common usages, a basic and more advance use of delegates. "
+  }
+]
