@@ -4,10 +4,11 @@ import requests
 client = OpenAI(api_key=open('openai-api.key').readline())
 
 response = client.images.generate(
-  model="dall-e-3",
+  model='dall-e-3',
   prompt='A blue rubber duck, on white background, with "j-labs" written on it.',
-  size="1024x1024",
-  quality="standard",
+  # prompt='A blue rubber rabbit, in the forest, with "j-labs" written on it.',
+  size='1024x1024',
+  quality='standard',
   n=1,
 )
 

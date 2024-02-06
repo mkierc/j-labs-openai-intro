@@ -21,5 +21,5 @@ for entry in dataset:
         'embedding': vector
     })
 
-with open('06-embeddings-prepared.json', 'w') as output_file:
+with open('06-embeddings.json', 'w') as output_file:
     json.dump(embeddings, output_file)
