@@ -19,7 +19,7 @@ else:
 client = OpenAI(api_key=open('../src/openai-api.key').readline())
 wrapper = textwrap.TextWrapper(width=50)
 
-name = 'Ola'
+name = 'Janusz'
 
 ikea_name = client.chat.completions.create(
     model='gpt-4-turbo-preview',
@@ -114,5 +114,5 @@ image_draw.text((50, 50), ikea_name, fill=color, font=IF.truetype(verdana_bold, 
 image_draw.text((53, 130), desc, fill=color, font=IF.truetype(verdana, size=30))
 image_draw.text((45, 160 + desc.count('\n') * 30), text=price, fill=color, font=IF.truetype(verdana_bold, size=120))
 
-image_full_filename = f'{name}-ikea-{counter:02}.jpg'
+image_full_filename = f'{name}-{counter:02}-ikea.jpg'
 image.save(image_full_filename)
