@@ -5,8 +5,16 @@ import textwrap
 import requests
 from PIL import Image
 from PIL import ImageDraw
-from PIL import ImageFont
+from PIL import ImageFont as IF
 from openai import OpenAI
+
+from sys import platform
+if platform == "darwin":
+    verdana = 'Verdana.ttf'
+    verdana_bold = 'Verdana Bold.ttf'
+else:
+    verdana = 'verdana.ttf'
+    verdana_bold = 'verdanab.ttf'
 
 client = OpenAI(api_key=open('../src/openai-api.key').readline())
 wrapper = textwrap.TextWrapper(width=50)
@@ -99,15 +107,12 @@ else:
 # draw: name, description, price
 image_draw = ImageDraw.Draw(image)
 
-description_wrapped = wrapper.fill(text=product_description)
+desc = wrapper.fill(text=product_description)
 price = random.choice(['39,99', '59,99', '79,99', '129,99'])
 
-image_draw.text((50, 50), ikea_name, fill=color,
-                font=ImageFont.truetype('verdanab.ttf', size=60))
-image_draw.text((53, 130), description_wrapped, fill=color,
-                font=ImageFont.truetype('verdana.ttf', size=30))
-image_draw.text((45, 160 + description_wrapped.count('\n') * 30), text=price, fill=color,
-                font=ImageFont.truetype('verdanab.ttf', size=120))
+image_draw.text((50, 50), ikea_name, fill=color, font=IF.truetype(verdana_bold, size=60))
+image_draw.text((53, 130), desc, fill=color, font=IF.truetype(verdana, size=30))
+image_draw.text((45, 160 + desc.count('\n') * 30), text=price, fill=color, font=IF.truetype(verdana_bold, size=120))
 
 image_full_filename = f'{name}-ikea-{counter:02}.jpg'
 image.save(image_full_filename)
