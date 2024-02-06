@@ -11,10 +11,10 @@ from openai import OpenAI
 client = OpenAI(api_key=open('../src/openai-api.key').readline())
 wrapper = textwrap.TextWrapper(width=50)
 
-name = 'Bartek'
+name = 'Ola'
 
 ikea_name = client.chat.completions.create(
-    model='gpt-3.5-turbo',
+    model='gpt-4-turbo-preview',
     messages=[{
         'role': 'system',
         'content': 'Twoim zadaniem jest stworzenie nazwy produktu w stylu IKEA, na podstawie imienia,'
@@ -31,13 +31,13 @@ ikea_name = client.chat.completions.create(
         'role': 'user',
         'content': name
     }],
-    max_tokens=128
+    max_tokens=10
 ).choices[0].message.content
 
 print(ikea_name)
 
 product_description = client.chat.completions.create(
-    model='gpt-3.5-turbo',
+    model='gpt-4-turbo-preview',
     messages=[{
         'role': 'system',
         'content': 'Twoim zadaniem jest wymyślanie opisów do produktów w stylu IKEA,'
